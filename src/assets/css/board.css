@@ -1,0 +1,28 @@
+.main-container {
+    border-top: 1px solid lightgray;
+    margin-bottom: 50px;
+  }
+  
+  .container {
+    margin-bottom: 50px;
+  }
+  
+  .margin-container {
+    width: 300px;
+  }
+  
+  .notice-title {
+    font-size: 25px;
+    margin: 30px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .write-btn {
+    padding: 10px 20px;
+  }
+  
+  td,
+  th {
+    padding: 20px !important;
+  }

@@ -1,0 +1,81 @@
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+header > nav {
+  display: flex;
+  flex-direction: row;
+}
+
+header > nav > li {
+  margin: 0 10px;
+}
+
+header > nav > li > a {
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#user-info {
+  cursor: default !important;
+}
+
+#login {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#login:hover {
+  border: 1px solid black;
+}
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+  .header,
+  .header nav {
+    flex-direction: column;
+  }
+  .header {
+    height: 300px;
+    padding: 20px;
+  }
+  .header-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .header > nav > li {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .header > nav > li:hover {
+    border-bottom: 1px solid black;
+  }
+
+  #login {
+    border: none;
+  }
+
+  #login:hover {
+    border: none;
+  }
+}

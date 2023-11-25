@@ -1,0 +1,63 @@
+/*****************로그인, 회원가입***********/
+
+.login-container {
+  height: 500px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.register-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.register-form input,
+.login-form input {
+  border: 1px solid lightgray;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.register-form .register-btn,
+.login-form .login-btn {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #ffafcc;
+  color: white;
+  cursor: pointer;
+  width: 110%;
+  margin-top: 20px;
+}
+
+.register-btn:hover,
+.login-btn:hover {
+  background-color: #f88eb5;
+}
+
+.register {
+  margin-top: 50px;
+  font-size: 12px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+p {
+  margin: 0;
+}
+.report-wrapper {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.report-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.report-container {
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  padding: 50px;
+}
+
+.apt-info-container {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.apt-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.apt-info-content {
+  margin-left: 30px;
+}
+
+.chart-title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.chart-title {
+  margin-left: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.chart-sub-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.deal-list-container {
+  /* width: 80%; */
+  margin-bottom: 80px;
+}
+.warning-container {
+  width: 50%;
+}
+
+.average-price-container {
+  width: 50%;
+  height: 150px;
+}

@@ -1,0 +1,104 @@
+/* 어떤 집을 찾으시나요 부분 */
+.main-start-container {
+  background-color: #f8f8f8;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.main-title-text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.main-content-text {
+  margin-top: 30px;
+  text-align: center;
+  color: #a6a6a6;
+}
+
+.main-about-container {
+  width: 60%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-about-card {
+  width: 280px;
+  height: 250x;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.main-about-card p {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  word-wrap: break-word;
+  line-height: 180%;
+}
+
+.main-apt-btn-container {
+  margin-top: 50px;
+}
+
+.search-btn {
+  height: 60px;
+  width: 180px;
+  padding: 10px 20px;
+  background-color: #ff71a5 !important;
+  border: none !important;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* 어떤 집을 찾으시나요 부분 끝*/
+
+/* 거래 전 참고하면 좋아요 부분 */
+.help-container {
+  margin: 50px;
+  padding-left: 30px;
+}
+
+.help-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.help-video-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.help-video {
+  overflow: hidden;
+  width: 30%;
+  height: 240px;
+  border-radius: 20px;
+  /* border: 1px solid #d3d3d3; */
+  /* text-align: center; */
+  /* cursor: pointer; */
+}
+
+.help-video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .help-container {
+    flex-wrap: wrap;
+  }
+}
